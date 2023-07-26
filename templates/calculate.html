@@ -1,0 +1,14 @@
+<div class = "calculate">
+    <h1>Calculate Average Marks</h1>
+
+    <form action="{{url_for('calculate')}}" method="post">
+        <input type="text" name="maths" placeholder="Maths" required="required"/>
+        <input type="text" name="science" placeholder="Science" required="required"/>
+        <input type="text" name="physics" placeholder="Physics" required="required"/>
+
+        <button type="submit" class="btn btn-primary btn-block btn-large" >calculate</button>
+    </form>
+    <!--<p1>The average mark is {{result}}%</p1>--> 
+
+    
+</div>
